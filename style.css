@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", serif; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1.875rem 1.875rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #005195; }
+  header h1 {
+    color: #FFFF; }
+  header a {
+    font-size: 1.25rem;
+    color: #FFFF;
+    text-decoration: none;
+    padding: 0.188rem; }
+    header a:hover {
+      color: #0098aa; }
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem; }
+  .about .textAbout {
+    display: flex;
+    flex-direction: column;
+    padding: 50px; }
+    .about .textAbout h2 {
+      font-size: 40px; }
+    .about .textAbout p {
+      font-size: 30px;
+      width: 400px; }
+  .about .img {
+    display: flex;
+    width: auto; }
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; }
+  .books .book-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.625rem; }
+  .books h2 {
+    font-size: 45px;
+    padding: 0.625rem; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contact h2 {
+    font-size: 40px; }
+  .contact p {
+    font-weight: 600; }
